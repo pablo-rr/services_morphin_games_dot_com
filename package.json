@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.26.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "services_morphin_games_dot_com",
+  "version": "1.0.0",
+  "description": "API services for www.morphingames.com.",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Polanski",
+  "license": "ISC"
+}

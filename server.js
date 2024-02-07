@@ -5,6 +5,8 @@ const fastify = Fastify({
   logger: true
 })
 
+fastify.register(generateTrackingUrl);
+
 // Declare a route
 fastify.get('/', function (request, reply) {
   reply.send({ hello: 'world' })
